@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Comparison Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+        .highlight {
+            background-color: #e3f2fd;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Comparison Hub</h1>
+        <p>Data-driven analysis of the latest gadgets</p>
+    </header>
+
+    <div class="container">
+        <h2>Premium Smartphone Comparison</h2>
+        
+        <table>
+            <caption>2023 Flagship Smartphone Specifications</caption>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th colspan="2">Key Features</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Storage</th>
+                    <th>Battery Life</th>
+                    <th>(USD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Quantum X Pro</td>
+                    <td>256GB</td>
+                    <td>18 hours</td>
+                    <td>$999</td>
+                </tr>
+                <tr class="highlight">
+                    <td>Nova 12 Ultra</td>
+                    <td>512GB</td>
+                    <td>22 hours</td>
+                    <td>$1,199</td>
+                </tr>
+                <tr>
+                    <td>Galaxy Titan</td>
+                    <td>128GB</td>
+                    <td>16 hours</td>
+                    <td>$849</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Key Findings:</h3>
+        <ol>
+            <li>The <strong>Nova 12 Ultra</strong> offers 100% more storage than base models but at a 20% price premium</li>
+            <li>Battery life scales linearly with price across all models</li>
+            <li>The $300-$1000 price range shows a clear tiered feature distribution</li>
+        </ol>
+    </div>
+
+    <footer>
+        <p>Data analyzed on July 2023 | <a href="#">View full dataset</a></p>
+    </footer>
+</body>
+</html>
